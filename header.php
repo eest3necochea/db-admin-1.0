@@ -12,17 +12,17 @@
     <title>SB Admin 2 - Blank</title>
 
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css?v=<?= time() ?>" rel="stylesheet" type="text/css">
     <!-- <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet"> -->
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sb-admin-2.min.css?v=<?= time() ?>" rel="stylesheet">
+    <link href="css/style.css?v=<?= time() ?>" rel="stylesheet">
 
     <!-- Custom functionality for this template-->
-    <script src="js/app.js" defer></script>
+    <script src="js/app.js?v=<?= time() ?>" defer></script>
 
     <!-- Simular sesion -->
     <?php
@@ -76,7 +76,7 @@
                 } else {
             ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="php/usuariosDB.php">
+                    <a class="nav-link" href="php/selectAllDB.php">
                         <i class="fas fa-fw fa-wifi"></i>
                         <span>Usuarios</span></a>
                 </li>
